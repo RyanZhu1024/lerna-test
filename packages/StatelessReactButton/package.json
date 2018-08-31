@@ -1,6 +1,6 @@
 {
   "name": "stateless-react-button",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "this is my StatelessReactButton",
   "main": "dist/es/index.js",
   "scripts": {
