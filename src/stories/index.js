@@ -6,9 +6,6 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
-import StateFulReactButton from '../../packages/StateFulReactButton/src/StatefullReactButton';
-import StatelessReactButton from '../../packages/StatelessReactButton/src/StatelessReactButton';
-
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
 ));
