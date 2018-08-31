@@ -1,0 +1,16 @@
+{
+  "name": "stateless-react-button",
+  "version": "1.0.0",
+  "description": "this is my StatelessReactButton",
+  "main": "dist/es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ../../rollup.config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
